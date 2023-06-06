@@ -13,6 +13,9 @@ export class EventManager {
     for (let i = 0; i < this._listeners.length; i++) {
       if (this._listeners[i] === listener) {
         this._listeners.splice(i, 1);
+        if (this._listeners.length === 0) {
+          break;
+        }
       }
     }
   }
