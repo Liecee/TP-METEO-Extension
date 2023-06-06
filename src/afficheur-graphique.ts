@@ -32,5 +32,6 @@ export class AfficheurGraphique implements IListener {
     );
     console.log(asciichart.plot([this.tabTemperature]));
     console.log(asciichart.plot([this.tabHumidité]));
+    console.log("\n");
   }
 }
