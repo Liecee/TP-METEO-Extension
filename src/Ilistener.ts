@@ -1,3 +1,3 @@
 export interface IListener {
-  miseAJour(temperature: number, humidité: number): void;
+  miseAJour2(temperature: number, humidité: number): void;
 }

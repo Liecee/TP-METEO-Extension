@@ -17,6 +17,6 @@ export class EventManager {
     }
   }
   notifier(temperature: number, humidite: number): void {
-    this._listeners.forEach((afficheur) => afficheur.miseAJour(temperature, humidite));
+    this._listeners.forEach((afficheur) => afficheur.miseAJour2(temperature, humidite));
   }
 }
